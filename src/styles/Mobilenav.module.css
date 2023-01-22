@@ -1,0 +1,31 @@
+/*  By default  */
+.Container{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  responsibe */
+@media screen and (max-width:450px) {
+    .Container{
+        display: inline;
+    }
+}
+/*  666 */
+@media screen and (max-width: 666px) {
+        .Container{
+            display: inline;
+        }
+}

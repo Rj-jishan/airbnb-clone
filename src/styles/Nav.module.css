@@ -1,0 +1,119 @@
+/*  main nav designing Air bnb clone */
+
+.logocom img{
+   width: 130px;
+    padding: 12px;
+}
+/* header */
+.header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+     margin-top: 10px;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+ 
+  /*  a t a g  */
+ 
+  /* hader a  */
+  .header a {
+     color: inherit;
+  }
+  
+  /*  header nav center */
+  .header nav a {
+    padding: 5px 10px;
+  }
+  .header nav.center {
+    text-align: center;
+  }
+  .header nav.right {
+    text-align: center;
+  }
+  /*  center design */
+  .center{
+    line-height: 50px;
+    border-radius: 1rem;
+    
+  }
+  .center a{
+    background: rgb(252, 252, 252);
+    font-weight: 450;
+    box-shadow: 1px 2px 1px 1.5px rgb(231, 231, 231);
+    font-family: sans-serif;
+  }
+  .center a:hover{
+    box-shadow: 1px 3.5px 1px 1.5px rgb(231, 231, 231);
+    
+  }
+  .center a:nth-child(1){
+    border-right: 1px solid #888;
+    padding: 11px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .center a:nth-child(2){
+    border-right: 1px solid #888;
+    padding: 11px;
+
+  }
+  .center a:nth-child(3){ 
+    padding: 11px;
+
+  } 
+ 
+  .center a:nth-child(4){ 
+    padding: 11px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  } 
+ /* searchActive */
+ .searchActive{
+    display: block;
+    fill: none;
+    background: var(--newGreen);
+   
+    border-radius: 1rem; 
+    
+   
+     
+ }
+ /* rightContent */
+ .rightContent a{
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+ .rightContent a:nth-child(1){
+    border-radius: 1rem;
+    padding: 12px;
+    transition: 0.2s;
+ }
+ .rightContent a:nth-child(1):hover{
+    background: rgba(136, 136, 136, 0.082);
+
+ }
+ /* right cntent 2 */
+ .rightContent a:nth-child(2){
+    border-radius: 1rem;
+    padding: 12px;
+    transition: 0.2s;
+ }
+ .rightContent a:nth-child(2):hover{
+    background: rgba(136, 136, 136, 0.082);
+
+ }
+
+ /*  responsibe */
+ @media screen and (max-width: 450px) {
+   .header{
+    display: none;
+   }
+}
+@media screen and (max-width:666px) {
+   
+    .header{
+        display: none;
+    }
+}
