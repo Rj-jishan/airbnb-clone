@@ -12,11 +12,6 @@
 
 
 
-
-
-
-
-
 /*  responsibe */
 @media screen and (max-width:450px) {
     .Container{
@@ -28,4 +23,40 @@
         .Container{
             display: inline;
         }
+        
+.Container{ 
+    font-weight: 450; ;
+    font-family: sans-serif;
+    margin-top: 10px; 
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+ .Links a{
+    /* margin: 10px; */
+    padding: 8px;
+    background: rgba(161, 161, 161, 0.192);
+    color: #222;
+    font-weight: 400;
+    border-radius: 2rem;
+ }
+
+
+}
+/*  280 px */
+@media screen and (max-width: 280px) {
+    .Links a{
+        padding: 8px;
+      
+       
+    }   
+    .Links{
+        flex-direction: column;
+        width: 1005px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
