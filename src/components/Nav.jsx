@@ -1,5 +1,4 @@
 import React from 'react';
-import Topnavigator from './Topnavigator';
 import classes from "../styles/Nav.module.css"; 
 import { Link } from 'react-router-dom';
 import MobileNav from './MobileNav';
@@ -9,7 +8,7 @@ import Slider from './Slider';
 const Nav = () => {
   return (
     <div>
-        <Topnavigator />
+   
       {/*  Header part */}
       <haeder className={classes.header}>
         <div className={classes.logocom}>

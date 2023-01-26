@@ -2,8 +2,8 @@
 // import styling from styles folder 
 import { BrowserRouter, Route, Routes  } from "react-router-dom";
 import  "./App.css";
-import Home from "./pages/Home"; 
-import Nav from "./components/Nav";
+import Home from "./pages/Home";  
+import Nav from "./components/Layout";
 // import Nav from "./components/Nav";
  
 function App(){
@@ -11,7 +11,7 @@ function App(){
   <>
   <BrowserRouter>
   {/* <Nav />  */}
-  <Nav />
+  <Nav   />
   <Routes>
  
      <Route path={"/"} element={ <Home />} />

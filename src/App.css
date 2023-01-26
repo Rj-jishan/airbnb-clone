@@ -28,8 +28,9 @@ body{
 body{
   font-family: 'Montserrat',sans-serif;
 }
-.active{
-  background: #000;
+.layout{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
 }
-
- 
