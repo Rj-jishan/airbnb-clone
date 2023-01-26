@@ -3,6 +3,7 @@ import Topnavigator from './Topnavigator';
 import classes from "../styles/Nav.module.css"; 
 import { Link } from 'react-router-dom';
 import MobileNav from './MobileNav';
+import Slider from './Slider';
 
  
 const Nav = () => {
@@ -28,8 +29,10 @@ const Nav = () => {
           <Link hre  to={"/"}><img src={"https://cdn-icons-png.flaticon.com/128/3083/3083741.png"} alt="404 error!"  width={19}/></Link>
           <Link to={"/"}>Account</Link>
         </nav>  
+        {/*  slider */}
       </haeder>
       <MobileNav />
+        <Slider />
       
       
     </div>
