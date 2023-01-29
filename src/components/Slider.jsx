@@ -81,7 +81,7 @@ const Slider = () => {
             />
           </NavLink>
           <NavLink to={'/country-side'}  className={(navInfo) => (navInfo.isActive ? classes.active : "")}>
-            Country side
+            Country side 
             <img
               src="https://cdn-icons-png.flaticon.com/512/2374/2374938.png"
               alt="404 error!"

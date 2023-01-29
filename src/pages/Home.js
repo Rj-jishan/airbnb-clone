@@ -19,7 +19,7 @@ const Home = () => {
               <div class={classes.qmeta}>
                 <p>{ref.price}</p>
               <p>{ref.date}</p>
-                <p className={classes.review}>{ref.star}</p>
+                <p className={classes.review}><i className="fas fa-star "></i>{ref.star}</p>
               </div>
             </div>
         

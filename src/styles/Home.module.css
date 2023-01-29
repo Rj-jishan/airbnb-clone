@@ -80,11 +80,12 @@
   font-size: 1.1rem;
  
 }
-.video p:nth-child(3):hover{
-  font-size: 1.3rem;
-  background: #2dbf64;
-  letter-spacing: 2px;
+.video p:nth-child(3):active{
+  
+  background: #2dbf65de;
+ 
   font-weight: 600;
+  border-radius: 0.2rem;
  
 }
 @media only screen and (max-width: 600px) {

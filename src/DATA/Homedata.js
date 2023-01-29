@@ -6,10 +6,10 @@ export const homePageData = [
     id: 1,
     image:
       "https://images.unsplash.com/photo-1546587348-d12660c30c50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    location: "Emerald Lake - Yoho National Park",
+    location: "Emerald Lake - Yoho National Park Canada",
     date: "1 - 11 February",
     price: "$31 night",
-    star: "***",
+    star: "4.24",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const homePageData = [
     location: "dw;ASDca;lsad",
     date: "`1 - 10 dec",
     price: "$100",
-    star: "***",
+    star: "4.24",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const homePageData = [
     location: "dw;ASDca;lsad",
     date: "`1 - 10 dec",
     price: "$100",
-    star: "***",
+    star: "4.24",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ export const homePageData = [
     location: "dw;ASDca;lsad",
     date: "`1 - 10 dec",
     price: "$100",
-    star: "***",
+    star: "4.24",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const homePageData = [
     location: "dw;ASDca;lsad",
     date: "`1 - 10 dec",
     price: "$100",
-    star: "***",
+    star: "4.24",
   },
   {
     id: 6,
@@ -54,6 +54,6 @@ export const homePageData = [
     location: "dw;ASDca;lsad",
     date: "`1 - 10 dec",
     price: "$100",
-    star: "***",
+    star: "4.24",
   },
 ];
