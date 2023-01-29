@@ -1,8 +1,13 @@
-# `Air bnb clone:   ` 
-<img src="https://raw.githubusercontent.com/raihan-jishan/Github-cover-photo/main/images/air%20bnb.png" />
-# Making simple Air bnb clone using 
-## `React 18 ^, material ui , mui icons. react router dom , custom css .... `
-### `warn : this is the air bnb 2020 ui... `
+<h1 align="right"> `ᗩIᖇ ᗷᑎᗷ ᑕᒪOᑎE:   `  </h1>
+<div align="center"> 
+<img src="https://raw.githubusercontent.com/raihan-jishan/Github-cover-photo/main/images/Air-bnb%20cover%20image.png" />
+</div>
+ <h2 align="center">
+  ғᴏʀ ʙᴀᴅ ᴜsᴇʀ ᴇxᴘʀᴇɪɴᴄᴇ ᴛʜɪs ɪs ᴅᴇᴠᴏʟᴏᴘᴍᴇɴᴛ ʀɪɢʜᴛ ɴᴏᴡ !
+ </h2>
+ <div align="left">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" width="52" />
+ </div>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
