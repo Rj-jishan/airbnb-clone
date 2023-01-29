@@ -31,16 +31,16 @@
 .video {
   max-width: 400px;
   height: fit-content;
-  background-color: #fff;
-  border: 1px solid #e5e5e5;
   padding: 10px;
   border-radius: 4px;
   cursor: pointer;
   padding-bottom: 1rem;
+  transition: 0.2s;
+
 }
 
 .video:hover {
-  box-shadow: 0 0 15px 0 #e5e5e5;
+  transform: scale(0.99);
 }
 
 .video p {
@@ -55,6 +55,7 @@
 
 .video img {
   width: 100%;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 
@@ -64,11 +65,28 @@
   padding-right: 6px;
 }
 
+
 .video .qmeta p {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
+  padding: 7px;
+}
+.video p:hover{
+  border-radius: 1rem; 
+  background: rgba(102, 102, 102, 0.116);
 }
 
+.video p:nth-child(3){
+  font-size: 1.1rem;
+ 
+}
+.video p:nth-child(3):hover{
+  font-size: 1.3rem;
+  background: #2dbf64;
+  letter-spacing: 2px;
+  font-weight: 600;
+ 
+}
 @media only screen and (max-width: 600px) {
   .video {
     width: 100%;
