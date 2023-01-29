@@ -1,5 +1,5 @@
 <h1 align="center"> `ᗩIᖇ ᗷᑎᗷ ᑕᒪOᑎE:   `  </h1>
-<h2> All update code are master branch !</h2>
+<h2> ` All update code are master branch ! `</h2>
 <div align="center"> 
 <img src="https://raw.githubusercontent.com/raihan-jishan/Github-cover-photo/main/images/Air-bnb%20cover%20image.png" />
 </div>
