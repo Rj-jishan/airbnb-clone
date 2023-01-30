@@ -14,11 +14,11 @@ export const homePageData = [
   {
     id: 2,
     image:
-      "https://th.bing.com/th?id=OIP.K1Bol3dX7ETwwphDKoGzFwHaFg&w=289&h=215&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
-    location: "dw;ASDca;lsad",
-    date: "`1 - 10 dec",
-    price: "$100",
-    star: "4.24",
+      "https://a0.muscache.com/im/pictures/7a83743c-b733-482a-aa4a-aa28e3fa9469.jpg?im_w=720",
+    location: "Thung samu, Thailanz",
+    date: "`12 - 20 jan",
+    price: "$130",
+    star: "4.28",
   },
   {
     id: 3,
